@@ -3,4 +3,4 @@ Input a word, phrase, or name and its scrabble value will be calculated. You can
 
 I am currently in the process of adding the ability to specify double/triple letter or word scores.
 
-Enjoy and let me know any improvements I can make!
+Enjoy and let me know if there are any improvements I can make!
