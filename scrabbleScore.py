@@ -22,7 +22,7 @@ def main():
         if ans.lower == "quit":
             print("\nQuitting...\n")
             quit()
-        if ans.lower() == "input":
+        elif ans.lower() == "input":
             i = input("\nEnter a word or phrase to be evaluated.\n\n")
             lines = [i]
             break
@@ -31,7 +31,7 @@ def main():
             lines = readInFile(f)
             break
         else:
-            print("I'm sorry, I didn't quite get that.\n")
+            print("\nI'm sorry, I didn't quite get that.\n")
 
     scrabble = {
             'a':1, 'b':3, 'c':3, 'd':2, 'e':1, 'f':4, 'g':2,
@@ -52,6 +52,8 @@ def main():
 
     for z in namePtLst:
         print(z)
+    
+    print()
 
 if __name__ == "__main__":
     main()
